@@ -1,0 +1,105 @@
+* {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+}
+
+body{
+   background-color: black;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.name{
+  text-align: center;
+  padding-top: 150px;
+  margin-bottom: 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:900;
+  font-size: 60px;
+}
+
+.firstName{
+  color: #9370d8;
+}
+
+.lastName{
+  color: white;
+}
+
+
+.aboutme,
+.projects,
+.resume,
+.github{
+  display: flex;
+  width: 300px;
+  height: 50px;
+  background-color: black;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.aboutmerest{
+  display: none;
+  width: 300px;
+  height: auto;
+  margin: auto;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.projectrest{
+  display: none;
+  width: 300px;
+  height: auto;
+  margin: auto;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+
+.label{
+  text-align: justify;
+  justify-content: flex-start;
+  color: #9370d8;
+  font-family: Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.iconfile{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 100px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.iconprofile{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 80px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.icongithub{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 120px;
+  width: 40px;
+  height: 40px;
+}
+
+.links{
+  text-decoration: none;
+  color: #9370d8;
+}
