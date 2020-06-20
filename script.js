@@ -1,26 +1,23 @@
-var aboutme = document.getElementById('aboutme');
-var showaboutme = document.getElementById('showaboutme');
-var project = document.getElementById('projects');
-var showproject = document.getElementById('showproject');
 function start(){
-  aboutme.addEventListener('click', function(){
-    if(showaboutme.style.display == "none"){
-      showaboutme.style.display = "flex";
-    }
-    else{
-        showaboutme.style.display = "none";
-    }
-  });
+  if (!window.getComputedStyle) {
+    // Fallback for obsolete IE
+    window.getComputedStyle = function(e) {
+        return e.currentStyle;
+    };
+  }
+}
 
-  project.addEventListener('click', function(){
-    if(showproject.style.display == "none"){
-      showproject.style.display = "flex";
-    }
-    else{
-        showproject.style.display = "none";
-    }
-  });
 
+
+function profile() {
+  var showaboutme = document.getElementById('showaboutme');
+  showaboutme.classList.toggle("flex");
+  
+};
+
+function projects() {
+  var showproject = document.getElementById('showproject');
+  showproject.classList.toggle("flex");
 }
 
 start()

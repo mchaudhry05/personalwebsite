@@ -94,3 +94,8 @@ body {
 	text-decoration: none;
 	color: #9370d8;
 }
+
+.flex{
+	display: flex;
+}
+
