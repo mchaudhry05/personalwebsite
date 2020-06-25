@@ -38,6 +38,7 @@ body {
 .github {
 	margin-bottom: 40px;
 }
+
 .aboutmerest {
 	display: none;
 	width: 300px;
@@ -47,11 +48,30 @@ body {
 	margin-top: 5px;
 	margin-bottom: 20px;
 	cursor: pointer;
-	text-align: justify;
+	
 }
+
+.about{
+	display: block;
+	width: 300px;
+	height: 330px;
+	background-color: #9370d8;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.aboutme-writing{
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.skills{
+	padding-left: 50px;
+}
+
 .projectrest {
 	display: none;
-	text-align: justify;
+	text-align: left;
 	width: 300px;
 	height: auto;
 	margin: auto;
@@ -60,6 +80,22 @@ body {
 	margin-bottom: 20px;
 	cursor: pointer;
 }
+
+.project{
+	display: block;
+	width: 300px;
+	height: 130px;
+	background-color: #9370d8;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.project-name{
+	padding-top: 15px;
+	font-size:x-large;
+}
+
 .label {
 	text-align: justify;
 	justify-content: flex-start;
@@ -97,5 +133,45 @@ body {
 
 .flex{
 	display: flex;
+}
+
+.block{
+	display: block;
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+
+.project-heading{
+	padding-top: 4px;
+	
+}
+
+.project-button{
+	display: inline-block;
+	width: 250px;
+	height: 25px;
+	border-radius: 10px;
+	background-color: black;
+	color:white;
+	border: none;
+	margin-top: 10px;
+	cursor: pointer;
+
+}
+.project-button-container{
+	padding-top: 10px;
+	display: inline-block;
+	margin-left: 25px;
+	align-content: center;
+
+}
+
+.hiddenproject{
+	display: none;
+	width: 300px;
+	height: auto;
 }
 
