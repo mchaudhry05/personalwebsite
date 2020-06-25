@@ -17,7 +17,7 @@ function profile() {
 
 function projects() {
   var showproject = document.getElementById('showproject');
-  showproject.classList.toggle("flex");
+  showproject.classList.toggle("block");
 }
 
 start()
