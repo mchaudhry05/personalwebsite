@@ -48,25 +48,57 @@ body {
 	margin-top: 5px;
 	margin-bottom: 20px;
 	cursor: pointer;
-	
+
 }
 
 .about{
 	display: block;
 	width: 300px;
-	height: 330px;
+	height: 390px;
 	background-color: #9370d8;
 	margin-top: 20px;
 	border-radius: 10px;
+	text-align: center;
 }
 
 .aboutme-writing{
-	padding-top: 15px;
-	padding-left: 15px;
+	margin-top: 10px;
 }
 
 .skills{
-	padding-left: 50px;
+	display:block;
+	width: 250px;
+	height: 25px;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+.skills-inner{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+.percentage-label{
+	padding-top: 4px;
+	text-align: center;
+}
+
+.ninetypercent{
+	width: 90%;
+}
+
+.eightpercent{
+	width: 80%;
+}
+
+.seventypercent{
+	width: 70%;
+}
+
+.fiftypercent{
+	width: 50%;
 }
 
 .projectrest {
@@ -146,7 +178,7 @@ body {
 
 .project-heading{
 	padding-top: 4px;
-	
+
 }
 
 .project-button{
@@ -174,4 +206,3 @@ body {
 	width: 300px;
 	height: auto;
 }
-
