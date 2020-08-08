@@ -76,7 +76,7 @@ body {
 
 .skills-inner{
 	width: 100%;
-	height: 100%;
+	height: 25px;
 	background-color: black;
 }
 
@@ -86,19 +86,19 @@ body {
 }
 
 .ninetypercent{
-	width: 90%;
+	width: 225px;
 }
 
 .eightpercent{
-	width: 80%;
+	width: 160px;
 }
 
 .seventypercent{
-	width: 70%;
+	width: 175px;
 }
 
 .fiftypercent{
-	width: 50%;
+	width: 125px;
 }
 
 .projectrest {
